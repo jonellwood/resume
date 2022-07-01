@@ -34,9 +34,6 @@ a {
   text-decoration: none;
   color: inherit;
 }
-.experience-table th {
-  padding-right: 200px;
-}
 .education {
   margin-top: 2rem;
   /* color: red; */
@@ -57,15 +54,53 @@ a {
   /* color: red; */
   margin-left: 1rem;
 }
+.mailing {
+  margin-top: 2rem;
+  /* color: red; */
+  margin-left: 1rem;
+}
+.certifications {
+  margin-top: 2rem;
+  /* color: red; */
+  margin-left: 1rem;
+}
+.view {
+  margin-top: 2rem;
+  /* color: red; */
+  margin-left: 1rem;
+}
+.layout {
+  margin-top: 2rem;
+  /* color: red; */
+  margin-left: 1rem;
+}
+.design {
+  margin-top: 2rem;
+  /* color: red; */
+  margin-left: 1rem;
+}
+.draw {
+  margin-top: 2rem;
+  /* color: red; */
+  margin-left: 1rem;
+}
+.insert {
+  margin-top: 2rem;
+  /* color: red; */
+  margin-left: 1rem;
+}
+.experience-table th {
+  padding-right: 250px;
+}
 
 .education-table th {
-  padding-right: 200px;
+  padding-right: 260px;
 }
 .certifications-table th {
   padding-right: 250px;
 }
 .skills-table th {
-  padding-right: 200px;
+  padding-right: 320px;
 }
 .references-table th {
   padding-right: 175px;
