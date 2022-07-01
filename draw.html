@@ -17,17 +17,37 @@
         <div class="black-header-area"></div>
     </header>
     <div class="top-menu-and-title">
-        <p>AutoSave</p> <!-- TODO rounded auto save on off button / toggles? -->
+        <p class="auto-save">Auto Save
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+            </label>
+        </p>
         <p class="icon-container">
-            <img src="./icons/save-icon.png" width="24px" alt="save icon">
-            <img src="./icons/undo-icon.png" width="24px" alt="undo icon">
-            <img src="./icons/redo-icon.png" width="24px" alt="redo icon">
-            <img src="./icons/down-expand.png" width="24px" alt="down icon">
+            <img src="./icons/save-icon.png" width="24px" height="24px" alt="save icon">
+            <img src="./icons/undo-icon.png" width="24px" height="24px" alt="undo icon">
+            <img src="./icons/expand-down.png" width="24px" height="24px" alt="down icon">
+            <img src="./icons/redo-icon.png" width="24px" height="24px" alt="redo icon">
+            <img src="./icons/double-down.png" width="24px" height="24px" alt="two down icon">
 
         </p> <!-- icons for save, undo, redo, and some down arrow -->
         <p>Jon Ellwood - Resume - Last saved</p>
         <p id="date"></p>
-        <p> Jon Ellwood </p>
+
+        </p>
+        <form class="form form--search">
+
+            <div class="form__field">
+                <input type="search" placeholder="Search">
+                <input type="submit" value="Search">
+            </div>
+
+        </form>
+        <p class="icon-container-right">
+            <img src="./icons/avatar-icon.png" width="24px" height="24px" alt="avatar icon - get it?">
+            <img src="./icons/minimize-icon.png" width="24px" height="24px" alt="minimize-icon">
+            <img src="./icons/maximize-icon.png" width="24px" height="24px" alt="maximize-icon">
+            <img src="./icons/close-icon.png" width="24px" height="24px" alt="close icon">
         </p>
 
     </div>
