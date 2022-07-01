@@ -15,7 +15,7 @@ body {
 
 .top-menu-and-title {
   display: grid;
-  grid-template-columns: 1fr 2fr 3fr 1fr;
+  grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
   background-color: #185abd;
   margin-bottom: 0;
   color: white;
@@ -189,7 +189,7 @@ li:hover {
 .next-to-the-aside {
   /* display: inline-block; */
   width: 74%;
-  text-align: right;
+  text-align: left;
 }
 .container-for-everything {
   display: flex;

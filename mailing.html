@@ -8,9 +8,11 @@
     <title>Microsoft Word</title>
     <link rel="stylesheet" href="main.css">
     <link rel="icon" href="https://fav.farm/%E2%9C%89%EF%B8%8F">
+    <!-- Icons by Icons8 -->
+    <script src="./utils.js"></script>
 </head>
 
-<body>
+<body onload="fetchDate();">
     <header>
         <div class="black-header-area"></div>
     </header>
@@ -23,9 +25,11 @@
             <img src="./icons/down-expand.png" width="24px" alt="down icon">
 
         </p> <!-- icons for save, undo, redo, and some down arrow -->
-        <p>Jon Ellwood - Resume - Last saved 5/18/2018 10:15 PM</p>
-        <!-- make date function to return current time or something-->
+        <p>Jon Ellwood - Resume - Last saved</p>
+        <p id="date"></p>
         <p> Jon Ellwood </p>
+        </p>
+
     </div>
     <nav>
         <a href="./index.html">File</a>
