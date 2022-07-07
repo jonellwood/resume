@@ -194,6 +194,9 @@ a {
 .references-table th {
   padding-right: 175px;
 }
+.view-table th {
+  padding-right: 100px;
+}
 .icon-container {
   display: flex;
 }
