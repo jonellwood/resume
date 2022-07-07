@@ -1,0 +1,126 @@
+.ribbon {
+  background: #aaa;
+  margin: 0;
+  padding: 0;
+  /* width: 650px; */
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  /* grid-template-rows: repeat(4, 1fr); */
+  gap: 1px;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: 12px;
+}
+@media (max-width: 650px) {
+  .ribbon {
+    display: none;
+  }
+}
+.bottom-row {
+  background: #aaa;
+  margin: 0;
+  padding: 0;
+  /* width: 650px; */
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  /* grid-template-rows: repeat(4, 1fr); */
+  gap: 1px;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: 12px;
+}
+.one {
+  display: grid;
+  grid-template-columns: repeat(2, 24px);
+  grid-template-rows: repeat(2, 24px);
+  border: solid black 1px;
+  width: 48px;
+}
+.one-dot-one {
+  display: inline-grid;
+  width: 48px;
+  height: 72px;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  grid-column-end: 2;
+  grid-row-end: 2;
+  align-items: center;
+  vertical-align: center;
+}
+.one-dot-two {
+  display: grid;
+  grid-template-rows: 1fr;
+  width: 72px;
+}
+.one-dot-three {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  border: solid hotpink 1px;
+  text-align: center;
+}
+.one-dot-four {
+  /* width: 48px; */
+  /* grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4; */
+}
+.onedotten {
+  font-size: 12px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.oneodttwelve {
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+.two {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  border: solid black 1px;
+  width: 24px;
+}
+
+.three {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, 1fr);
+  border: solid black 1px;
+  width: 96px;
+}
+.four {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, 1fr);
+  border: solid black 1px;
+  width: 48px;
+}
+.five {
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: repeat(4, 1fr);
+  border: solid black 1px;
+  width: 48px;
+}
+.six {
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: repeat(4, 1fr);
+  border: solid black 1px;
+  width: 48px;
+}
+.seven {
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: repeat(4, 1fr);
+  border: solid black 1px;
+  width: 48px;
+}
+.eight {
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: repeat(4, 1fr);
+  border: solid black 1px;
+  width: 24px;
+}
